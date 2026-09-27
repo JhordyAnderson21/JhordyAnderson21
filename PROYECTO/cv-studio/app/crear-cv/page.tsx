@@ -1,0 +1,2 @@
+import {CVProvider} from "@/context/CVContext";import {CVWizard} from "@/components/CVWizard";import {SiteHeader} from "@/components/SiteHeader";
+export default function CrearCVPage(){return <div className="min-h-screen bg-paper"><SiteHeader/><CVProvider><CVWizard/></CVProvider><footer className="mx-auto flex max-w-7xl items-center justify-center gap-5 px-4 py-8 sm:px-6"><span className="text-xs text-slate-400">Tu información se procesa para crear tu CV.</span></footer></div>}
